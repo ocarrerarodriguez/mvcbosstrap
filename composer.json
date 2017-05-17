@@ -1,0 +1,20 @@
+ {
+ "authors":{
+ "name": "lacuato_ssd",
+ "email": "oscarcarreira85@gmail.com",
+ "homepage": "",
+ "role": "Developer"
+ },
+ "repositories":{
+ "type": "",
+ "url": ""
+ }
+ ,
+ "require": {
+ "": "",
+ "": ""
+ },
+ "autoload": {
+ "classmap": ["classes"]
+ }
+}

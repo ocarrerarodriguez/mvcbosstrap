@@ -260,4 +260,56 @@ class cls_menu
                 )
         );
     }
+     private function insertar_archivo_insertar () 
+    {
+     $this->menu_inerno=array(
+         array(
+                'id' => 'home',
+                'titulo' => 'home',
+                'enlace' => BASE_URL . 'index'
+                ),
+         array(
+                'id' => 'glucemias',
+                'titulo' => 'glucemias',
+                'enlace' => BASE_URL . 'glucemias'
+				),
+         array(
+                'id' => 'insertar',
+                'titulo' => 'insertar',
+                'enlace' => BASE_URL . 'insertar'
+                ),
+        
+		array(
+                'id' => 'grafico',
+                'titulo' => 'grafico',
+                'enlace' => BASE_URL . 'grafico'
+                )
+        );
+    }
+    private function insertar_archivo_index () 
+    {
+     $this->menu_inerno=array(
+         array(
+                'id' => 'home',
+                'titulo' => 'home',
+                'enlace' => BASE_URL . 'index'
+                ),
+         array(
+                'id' => 'glucemias',
+                'titulo' => 'glucemias',
+                'enlace' => BASE_URL . 'glucemias'
+				),
+         array(
+                'id' => 'insertar',
+                'titulo' => 'insertar',
+                'enlace' => BASE_URL . 'insertar'
+                ),
+        
+		array(
+                'id' => 'grafico',
+                'titulo' => 'grafico',
+                'enlace' => BASE_URL . 'grafico'
+                )
+        );
+    }
 }

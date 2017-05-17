@@ -24,7 +24,7 @@ class glucemias_Controller extends cls_Controller{
 		$_glucemias->table="glucemias";
 		$sql="SELECT * FROM `".$_glucemias->table."` WHERE 1";
 		$datos=$_glucemias::query($sql);
-		for($i=0;$i<(count($datos)-1);$i++)
+		for($i=0;$i<(count($datos));$i++)
 		{
 			$datos[$i]->fecha=$this->convertifecha($datos[$i]->time);
 			$datos[$i]->hora= substr($datos[$i]->time,10);

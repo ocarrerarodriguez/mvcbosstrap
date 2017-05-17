@@ -15,7 +15,7 @@
                                         <div class="cell"></div>
                                         <div class="cell"></div>
                                     </div>
-                                    <?php for($i=0;$i<(count($this->datos)-1);$i++){
+                                    <?php for($i=0;$i<(count($this->datos));$i++){
                                             ?>
                                         <div class="row <?php if($this->datos[$i]->glucemia>300){echo("yelow");}if($this->datos[$i]->glucemia<70){echo("red");}?>">
 										<div class="cell"><?php echo $this->datos[$i]->fecha;?></div>

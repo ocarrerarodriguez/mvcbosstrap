@@ -6,6 +6,9 @@
             <file>file:/C:/xampp/htdocs/mvcbosstrap/modelos/post_Model.php</file>
             <file>file:/C:/xampp/htdocs/mvcbosstrap/controladores/post_Controller.php</file>
             <file>file:/C:/xampp/htdocs/mvcbosstrap/vistas/post/index.phtml</file>
+            <file>file:/C:/xampp/htdocs/mvcbosstrap/vistas/insertar_archivo/insertar.phtml</file>
+            <file>file:/C:/xampp/htdocs/mvcbosstrap/vistas/register/register.phtml</file>
+            <file>file:/C:/xampp/htdocs/mvcbosstrap/controladores/insertar_archivo_Controller.php</file>
             <file>file:/C:/xampp/htdocs/mvcbosstrap/vistas/glucemias/glucemias.phtml</file>
             <file>file:/C:/xampp/htdocs/mvcbosstrap/aplicacion/cls_menu.php</file>
         </group>
